@@ -1,0 +1,6 @@
+out_file1.txt
+out_file2.txt
+out_file3.txt
+partition 0 2 1 2					      |	partition 0 2 1 0
+out_file4.txt
+out_file5.txt
