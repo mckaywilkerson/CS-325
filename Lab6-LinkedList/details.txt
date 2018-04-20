@@ -1,0 +1,24 @@
+out_file1.txt
+out_file2.txt
+out_file3.txt
+out_file4.txt
+out_file5.txt
+insertAfter `loved we					      <
+insertAfter To me,					      <
+remove ``was						      <
+insertAfter thought other				      <
+insertAfter `of seraphs					      <
+remove It						      <
+insertAfter Nor above					      <
+insertTail soul						      <
+insertAfter It 1849					      <
+remove ``my						      <
+insertHead `out						      <
+insertAfter envying Went				      <
+insertAfter ``was `she					      <
+insertAfter ``my dissever				      <
+insertHead ﻿Annabel					      <
+remove ﻿Annabel						      <
+insertHead ﻿Annabel					      <
+printList   						      <
+  ﻿Annabel Lee By Edgar Allen Poe 1849 It was many and `many a <

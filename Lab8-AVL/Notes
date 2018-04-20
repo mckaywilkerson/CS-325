@@ -1,0 +1,36 @@
+in balance if height of right child - left child < 1
+
+LL Tree (left heavy tree) = 2 negatives in a row => so do a right rotation (rotate everything to the right)
+right rotation:
+    n = node out of balance
+    k = left child of n
+    parent of n points to k
+    n's left child points to k's right child
+    k's right child points to n
+    
+when you are returning, you can change the heights
+
+
+LR Tree = negative followed by left child positive number
+    n = node out of balance
+    k = left child of n
+    parent of n points to new number inputed (right child of k)
+    k's right child's right child points to n
+
+    (something like that, check avl tree website example)
+    
+    
+RR Tree = positive(2) followed by right child positive(1) => left rotate
+    n = node out of balance
+    k = right child of n
+    parent of n points to k
+    n's right child points to k's left child
+    k's left child points to n
+    
+RL Tree = positive(2) followed by negative number
+
+
+
+
+*** it looks like if positive(2), then you look at it's right child (for positive or negative) (so RR or RL)
+*** if negative(-2), then you look at it's left child (so LL or LR)
